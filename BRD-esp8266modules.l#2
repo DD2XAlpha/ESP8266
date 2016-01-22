@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1892,11 +1892,11 @@
 <connects>
 <connect gate="1" pin="ADC" pad="ADC"/>
 <connect gate="1" pin="CHPD" pad="CH_PD"/>
-<connect gate="1" pin="CLK" pad="SCLK"/>
+<connect gate="1" pin="CLK" pad="GPIO9"/>
 <connect gate="1" pin="CS" pad="CS0"/>
 <connect gate="1" pin="GND" pad="GND"/>
 <connect gate="1" pin="GPIO0" pad="GPIO0"/>
-<connect gate="1" pin="GPIO10" pad="GPIO10"/>
+<connect gate="1" pin="GPIO10" pad="SCLK"/>
 <connect gate="1" pin="GPIO12" pad="GPIO12"/>
 <connect gate="1" pin="GPIO13" pad="GPIO13"/>
 <connect gate="1" pin="GPIO14" pad="GPIO14"/>
@@ -1905,9 +1905,9 @@
 <connect gate="1" pin="GPIO2" pad="GPIO2"/>
 <connect gate="1" pin="GPIO4" pad="GPIO4"/>
 <connect gate="1" pin="GPIO5" pad="GPIO5"/>
-<connect gate="1" pin="GPIO9" pad="GPIO9"/>
-<connect gate="1" pin="MISO" pad="MISO"/>
-<connect gate="1" pin="MOSI" pad="MOSI"/>
+<connect gate="1" pin="GPIO9" pad="GPIO10"/>
+<connect gate="1" pin="MISO" pad="MOSI"/>
+<connect gate="1" pin="MOSI" pad="MISO"/>
 <connect gate="1" pin="RST" pad="RESET"/>
 <connect gate="1" pin="RXD" pad="RX"/>
 <connect gate="1" pin="TXD" pad="TX"/>
